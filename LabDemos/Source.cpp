@@ -1,9 +1,13 @@
 #include <iostream>
 using namespace std;
 
+
+//this is a comment
 int main()
 {
-	
-	return 0;
+	int x = 5;
 
+	cout << x;
+
+	return 0;
 }
