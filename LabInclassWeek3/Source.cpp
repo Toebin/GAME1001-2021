@@ -1,6 +1,7 @@
 //Calculate the area of a rectangle
 #include <iostream>
-#include <iomanip>
+// #include <iomanip>
+#include <string>
 using namespace std;
 
 int main()
@@ -101,10 +102,43 @@ int main()
 
 
 
-	double number1 = 132.364, number2 = 26.91;
-	double quotient = number1 / number2;
+//	double number1 = 132.364, number2 = 26.91;
+//	double quotient = number1 / number2;
 	
-	cout << quotient << endl;
+//	cout << quotient << endl;
+
+//	cout << fixed << setprecision(5) << quotient << endl; 
+//	cout << fixed << setprecision(4) << quotient << endl;
+//	cout << fixed << setprecision(3) << quotient << endl;
+//	cout << fixed << setprecision(2) << quotient << endl;
+//	cout << fixed << setprecision(1) << quotient << endl;
+	
+//	double x = 6.0;
+
+//	cout << x << endl;
+
+//	cout << showpoint << setprecision(2) << x << endl;
+	
+//	cout << fixed << "$" << x << endl;
+	
+//	string name, city;
+	
+//	cout << "Please enter your name: ";
+//	getline(cin,name);
+//	cout << "Enter the city you live in: ";
+//	getline(cin,city);
+
+//	cout << "Hello, " << name << endl;
+//	cout << "You live in " << city << endl; 
+
+//	char ch;
+
+//	cout << "Type a character and press Enter: ";
+//	cin.get(ch);
+//	cout << "You Entered: " << ch << endl;
+
+	
+	
 	return 0;
 
 
