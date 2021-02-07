@@ -11,11 +11,7 @@ int main()
 
 	double item1 = 299.99, item2 = 89.75, item3 = 189.95, item4 = 150.89, item5 = 429.45;
 	float basepay = 200;
-	int quan1{};
-	int quan2{};
-	int	quan3{};
-	int	quan4{};
-	int quan5{};
+	int quan1{}, quan2{}, quan3{}, quan4{}, quan5{};
 	double quanTotal{};
 	double fullTotal{};
 	int quanSum{};
