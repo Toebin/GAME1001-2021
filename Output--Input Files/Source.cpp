@@ -1,0 +1,33 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	ofstream outputFile;
+	string name1, name2, name3;
+
+	// Open the output file
+	outputFile.open("Friends.txt");
+
+	cout << "Enter the name of three friends.\n";
+	cout << "Friend #1: ";
+	cin >> name1;
+	cout << "Friend #2: ";
+	cin >> name2;
+	cout << "Friend #3: ";
+	cin >> name3;
+
+	outputFile << name1 << endl;
+	outputFile << name2 << endl;
+	outputFile << name3 << endl;
+
+	outputFile.close();
+
+	cout << "Done\n\n";
+
+	return 0;
+
+}

@@ -25,7 +25,9 @@ int main()
 	cout << "How many units of item 1 ($299.99) did you sell? " << endl;
 		cin >> (quan1);
 
-		
+		while (cout << "How many units of item 1 ($299.99) did you sell? ")
+
+
 		if (quan1 < 0)
 		{
 			while (quan1 < 0)
